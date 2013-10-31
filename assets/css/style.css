@@ -93,6 +93,7 @@ h1 {
 
 a.twitter-icon {
     background:                 url('../img/twitter-icon.png') no-repeat center;
+    margin-left:                15px;
 }
 
 a.twitter-icon:hover {
@@ -101,6 +102,7 @@ a.twitter-icon:hover {
 
 a.github-icon {
     background:                 url('../img/github-icon.png') no-repeat center;
+    margin-left:                70px;
 }
 
 a.github-icon:hover {
@@ -108,12 +110,22 @@ a.github-icon:hover {
     
 }
 
+.form-group {
+    position:                   relative;
+}
+
 a.twitter-icon, .github-icon {
     display:                    inline-block;
+    position:                   absolute;
+    bottom:                     0;
     height:                     50px;
     width:                      50px;
-    font-size:                  0px;
 }
+
+.form-control, .btn, .twitter-icon, .github-icon {
+    margin-top:                 30px;
+}
+
 
 
 
