@@ -34,7 +34,7 @@ body {
 .logo-container {
     position:                   absolute;
     top:                        50%;
-    margin-top:                 -250px;
+    margin-top:                 -280px;
     width:                      100%;
     display:                    block;
     margin-left:                auto;
@@ -49,6 +49,7 @@ h1 {
     font-weight:                100;
     color:                      #0b1668;
     margin-top:                 0px;
+    margin-bottom:              35px;
 }
 
 
@@ -96,7 +97,6 @@ h1 {
 
 a.twitter-icon {
     background:                 url('../img/twitter-icon.png') no-repeat center;
-    margin-left:                10px;
 }
 
 a.twitter-icon:hover {
@@ -105,7 +105,6 @@ a.twitter-icon:hover {
 
 a.github-icon {
     background:                 url('../img/github-icon.png') no-repeat center;
-    margin-left:                57px;
 }
 
 a.github-icon:hover {
@@ -113,21 +112,13 @@ a.github-icon:hover {
     
 }
 
-.form-group {
-    position:                   relative;
-}
-
 a.twitter-icon, .github-icon {
     display:                    inline-block;
-    position:                   absolute;
     bottom:                     0;
     height:                     50px;
     width:                      50px;
 }
 
-.form-control, .btn, .twitter-icon, .github-icon {
-    margin-top:                 25px;
-}
 
 
 
