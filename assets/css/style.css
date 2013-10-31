@@ -52,6 +52,15 @@ h1 {
     margin-bottom:              35px;
 }
 
+.docker-link {
+    color:                      #0b1668;
+}
+
+.docker-link:hover {
+    color:                      #428bca;
+    text-decoration:            none;
+}
+
 
 /*Email form field styles.*/
 
